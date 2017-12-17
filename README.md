@@ -6,5 +6,6 @@ TwitterApI2
 _________________
 Example of using Twitter Api
 
-GithubApi_________________
+GithubApi
+_________________
 Example of using GithubApi Api
