@@ -1,4 +1,11 @@
+# This example will show how to basic map filter reduce functions
+#-----------------------------------------------
+
+
+
 from functools import reduce
+
+#3 functions add 1, return odd number ,sum
 
 def add(x):
     return  x+1
@@ -10,10 +17,13 @@ def odd(x):
 def red(x,y):
     return x+y
 
+#inititate list using map,filter,reduce
 
 a=map(add ,[1,2,3])
 b=filter(odd,[1,2,3])
 c=reduce(red,[1,2,3])
+
+#inititate list using map,filter,reduce using lambda expression
 
 a1=map(lambda x:x+1,[1,2,3])
 
